@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:andes_llantas;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+
+app:
+  cors:
+    allowed-origins: http://localhost:3000,http://localhost:3001

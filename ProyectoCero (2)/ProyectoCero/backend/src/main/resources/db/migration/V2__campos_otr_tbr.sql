@@ -1,0 +1,7 @@
+ALTER TABLE productos ADD COLUMN treadwear VARCHAR(20);
+ALTER TABLE productos ADD COLUMN traccion VARCHAR(10);
+ALTER TABLE productos ADD COLUMN temperatura VARCHAR(10);
+ALTER TABLE productos ADD COLUMN prof_cocada VARCHAR(20);
+ALTER TABLE productos ADD COLUMN ancho_banda VARCHAR(20);
+ALTER TABLE productos ADD COLUMN eje VARCHAR(40);
+ALTER TABLE productos ADD COLUMN operacion VARCHAR(40);

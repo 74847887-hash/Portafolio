@@ -1,0 +1,4 @@
+ALTER TABLE productos ADD COLUMN pliegues INTEGER;
+ALTER TABLE productos ADD COLUMN construccion VARCHAR(40);
+ALTER TABLE productos ADD COLUMN disenio VARCHAR(40);
+ALTER TABLE productos ADD COLUMN video_url VARCHAR(500);
