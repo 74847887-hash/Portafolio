@@ -1,0 +1,18 @@
+usuario1: admin
+contraseña:Admin1234
+--------------------------------------------------------------
+usuario2: desarrollador
+contraseña:Des1234
+
+
+--------------------------------------------------------------
+http://localhost:3000/admin
+
+
+frontend: npm.cmd run dev
+--------------------------------------------------------------
+cd PS C:\Users\Laly\Downloads\proyecto-cero-v3\ProyectoCero (2)\ProyectoCero\backend>
+backend: mvn spring-boot:run "-Dspring-boot.run.profiles=dev"
+
+--------------------------------------------------------------
+
